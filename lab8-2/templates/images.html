@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<style>
+    h2{
+        color: black;
+        font-family: verdana;
+        font-size: 100%;
+    }
+    body{background-color: cyan;}
+</style>
+<head>
+    <title>Home page</title>
+    </head>
+    <body>
+        <h2>Images</h2>
+        <image src="{{ url_for('static', filename= 'images/350z.png')}}">
+        <image src="{{ url_for('static', filename= 'images/370z.png')}}">
+        <image src="{{ url_for('static', filename= 'images/r33.png')}}">
+        <image src="{{ url_for('static', filename= 'images/unknown.png')}}">
+        <p>Chart</p>
+    </body>
+    <a href="/change">Want to change your password click here</a>
+    <table>
+            <tr>
+                <td>apple  </td>
+                <td>banana </td>
+                <td>orange </td>
+            </tr>
+            <tr>
+                <td>red  </td>
+                <td>blue </td>
+                <td>yellow </td>
+            </tr>
+            <tr>
+                <td>nissan  </td>
+                <td>ford </td>
+                <td>toyota </td>
+            </tr>
+            <tr>
+                <td>book  </td>
+                <td>computer </td>
+                <td>tablet </td>
+            </tr>
+    </table>
+</html>
+
